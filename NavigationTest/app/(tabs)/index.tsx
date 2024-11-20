@@ -5,9 +5,6 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.textStyle}>Hello Expo</Text>
-      <Link href={"/about"} style={styles.button}>
-        Gå till About screen
-      </Link>
     </View>
   );
 }
